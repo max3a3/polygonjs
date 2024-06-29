@@ -1,8 +1,8 @@
-import { Poly } from "@polygonjs/polygonjs/dist/src/engine/Poly";
-import { SceneJsonExporterData } from "@polygonjs/polygonjs/dist/src/engine/io/json/export/Scene";
+import { Poly } from "@polygonjs/src/engine/Poly";
+import { SceneJsonExporterData } from "@polygonjs/src/engine/io/json/export/Scene";
 import { OnProgressCallback } from "./loadSceneData";
 import { PolySceneWithNodeMap_scene_01 } from "./PolySceneWithNodeMap";
-import { BaseViewerType } from "@polygonjs/polygonjs/dist/src/engine/viewers/_Base";
+import { BaseViewerType } from "@polygonjs/src/engine/viewers/_Base";
 import { WebGLRenderer } from "three";
 
 export interface loadSceneOptions {

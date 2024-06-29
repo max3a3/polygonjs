@@ -1,23 +1,23 @@
-import { ParamValueSerializedTypeMap } from "@polygonjs/polygonjs/dist/src/engine/params/types/ParamValueSerializedTypeMap";
+import { ParamValueSerializedTypeMap } from "@polygonjs/src/engine/params/types/ParamValueSerializedTypeMap";
 
-import { PolyScene } from "@polygonjs/polygonjs/dist/src/engine/scene/PolyScene";
+import { PolyScene } from "@polygonjs/src/engine/scene/PolyScene";
 // obj
-import { GeoObjNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/obj/Geo";
+import { GeoObjNode } from "@polygonjs/src/engine/nodes/obj/Geo";
 // sop
-import { ActorSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/Actor";
-import { CameraControlsSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/CameraControls";
-import { HemisphereLightSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/HemisphereLight";
-import { MaterialSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/Material";
-import { MaterialsNetworkSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/MaterialsNetwork";
-import { MergeSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/Merge";
-import { PerspectiveCameraSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/PerspectiveCamera";
-import { PolarTransformSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/PolarTransform";
-import { SpotLightSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/SpotLight";
-import { TorusKnotSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/TorusKnot";
+import { ActorSopNode } from "@polygonjs/src/engine/nodes/sop/Actor";
+import { CameraControlsSopNode } from "@polygonjs/src/engine/nodes/sop/CameraControls";
+import { HemisphereLightSopNode } from "@polygonjs/src/engine/nodes/sop/HemisphereLight";
+import { MaterialSopNode } from "@polygonjs/src/engine/nodes/sop/Material";
+import { MaterialsNetworkSopNode } from "@polygonjs/src/engine/nodes/sop/MaterialsNetwork";
+import { MergeSopNode } from "@polygonjs/src/engine/nodes/sop/Merge";
+import { PerspectiveCameraSopNode } from "@polygonjs/src/engine/nodes/sop/PerspectiveCamera";
+import { PolarTransformSopNode } from "@polygonjs/src/engine/nodes/sop/PolarTransform";
+import { SpotLightSopNode } from "@polygonjs/src/engine/nodes/sop/SpotLight";
+import { TorusKnotSopNode } from "@polygonjs/src/engine/nodes/sop/TorusKnot";
 // mat
-import { MeshStandardMatNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/mat/MeshStandard";
+import { MeshStandardMatNode } from "@polygonjs/src/engine/nodes/mat/MeshStandard";
 // event
-import { CameraOrbitControlsEventNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/event/CameraOrbitControls";
+import { CameraOrbitControlsEventNode } from "@polygonjs/src/engine/nodes/event/CameraOrbitControls";
 
 export class PolySceneWithNodeMap_torus_knot extends PolyScene {
   node(path: "/geo1"): GeoObjNode;

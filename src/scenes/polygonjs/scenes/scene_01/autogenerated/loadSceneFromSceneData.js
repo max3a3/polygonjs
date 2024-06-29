@@ -1,8 +1,8 @@
-import { ScenePlayerImporter } from "@polygonjs/polygonjs/dist/src/engine/io/player/Scene";
-import { PolyNodeController } from "@polygonjs/polygonjs/dist/src/engine/nodes/utils/poly/PolyNodeController";
+import { ScenePlayerImporter } from "@polygonjs/src/engine/io/player/Scene";
+import { PolyNodeController } from "@polygonjs/src/engine/nodes/utils/poly/PolyNodeController";
 import { configureScene, configurePolygonjs } from "../PolyConfig";
-import { Poly } from "@polygonjs/polygonjs/dist/src/engine/Poly";
-import { AllExpressionsRegister } from "@polygonjs/polygonjs/dist/src/engine/poly/registers/expressions/All";
+import { Poly } from "@polygonjs/src/engine/Poly";
+import { AllExpressionsRegister } from "@polygonjs/src/engine/poly/registers/expressions/All";
 import { requiredImports_scene_01 } from "./requiredImports";
 
 const loadSceneFromSceneData_scene_01 = async function (options) {

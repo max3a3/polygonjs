@@ -1,4 +1,4 @@
-import { SceneJsonExporterData } from "@polygonjs/polygonjs/dist/src/engine/io/json/export/Scene";
+import { SceneJsonExporterData } from "@polygonjs/src/engine/io/json/export/Scene";
 
 export type OnProgressCallback = (ratio: number, args: any) => void;
 

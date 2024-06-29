@@ -1,5 +1,5 @@
-import { SceneJsonExporterData } from "@polygonjs/polygonjs/dist/src/engine/io/json/export/Scene";
-import { BaseViewerType } from "@polygonjs/polygonjs/dist/src/engine/viewers/_Base";
+import { SceneJsonExporterData } from "@polygonjs/src/engine/io/json/export/Scene";
+import { BaseViewerType } from "@polygonjs/src/engine/viewers/_Base";
 import { PolySceneWithNodeMap_torus_knot } from "./PolySceneWithNodeMap";
 import { WebGLRenderer } from "three";
 

@@ -1,23 +1,23 @@
-import { ParamValueSerializedTypeMap } from "@polygonjs/polygonjs/dist/src/engine/params/types/ParamValueSerializedTypeMap";
+import { ParamValueSerializedTypeMap } from "@polygonjs/src/engine/params/types/ParamValueSerializedTypeMap";
 
-import { PolyScene } from "@polygonjs/polygonjs/dist/src/engine/scene/PolyScene";
+import { PolyScene } from "@polygonjs/src/engine/scene/PolyScene";
 // obj
-import { GeoObjNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/obj/Geo";
-import { PerspectiveCameraObjNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/obj/PerspectiveCamera";
+import { GeoObjNode } from "@polygonjs/src/engine/nodes/obj/Geo";
+import { PerspectiveCameraObjNode } from "@polygonjs/src/engine/nodes/obj/PerspectiveCamera";
 // sop
-import { AttribIdSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/AttribId";
-import { AttribPromoteSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/AttribPromote";
-import { CopySopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/Copy";
-import { EventsNetworkSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/EventsNetwork";
-import { MaterialSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/Material";
-import { MaterialsNetworkSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/MaterialsNetwork";
-import { PlaneHelperSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/PlaneHelper";
-import { PlaneSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/Plane";
-import { SphereSopNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/sop/Sphere";
+import { AttribIdSopNode } from "@polygonjs/src/engine/nodes/sop/AttribId";
+import { AttribPromoteSopNode } from "@polygonjs/src/engine/nodes/sop/AttribPromote";
+import { CopySopNode } from "@polygonjs/src/engine/nodes/sop/Copy";
+import { EventsNetworkSopNode } from "@polygonjs/src/engine/nodes/sop/EventsNetwork";
+import { MaterialSopNode } from "@polygonjs/src/engine/nodes/sop/Material";
+import { MaterialsNetworkSopNode } from "@polygonjs/src/engine/nodes/sop/MaterialsNetwork";
+import { PlaneHelperSopNode } from "@polygonjs/src/engine/nodes/sop/PlaneHelper";
+import { PlaneSopNode } from "@polygonjs/src/engine/nodes/sop/Plane";
+import { SphereSopNode } from "@polygonjs/src/engine/nodes/sop/Sphere";
 // mat
-import { MeshBasicBuilderMatNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/mat/MeshBasicBuilder";
+import { MeshBasicBuilderMatNode } from "@polygonjs/src/engine/nodes/mat/MeshBasicBuilder";
 // event
-import { CameraOrbitControlsEventNode } from "@polygonjs/polygonjs/dist/src/engine/nodes/event/CameraOrbitControls";
+import { CameraOrbitControlsEventNode } from "@polygonjs/src/engine/nodes/event/CameraOrbitControls";
 
 export class PolySceneWithNodeMap_sphere_blink extends PolyScene {
   override node(path: "/geo1"): GeoObjNode;

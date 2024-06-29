@@ -24,6 +24,12 @@
 		// "declarationDir": "./dist/types", // declarationDir cannot be set if declaration is false
 
 		"importHelpers": true,
+		"paths": {
+			"@polygonjs/*": [
+				"./*"
+			]
+		},
+
 		"lib": ["dom", "es2019.array"]
 	},
 	// "include": ["./**/*.ts", "./**/*.vue"],

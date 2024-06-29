@@ -1,5 +1,5 @@
-import { PolyEngine } from "@polygonjs/polygonjs/dist/src/engine/Poly";
-import { PolyScene } from "@polygonjs/polygonjs/dist/src/engine/scene/PolyScene";
+import { PolyEngine } from "@polygonjs/src/engine/Poly";
+import { PolyScene } from "@polygonjs/src/engine/scene/PolyScene";
 
 export function configurePolygonjs(poly: PolyEngine) {
   // we have a `console.log` here to avoid errors like 'poly is declared but not used' at build time

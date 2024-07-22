@@ -1,0 +1,7 @@
+when importing scene
+
+need to replace files
+from
+@polygonjs/polygonjs/dist
+to
+@polygonjs

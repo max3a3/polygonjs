@@ -1,0 +1,31 @@
+{
+	"type": "copNetwork",
+	"nodes": {
+		"envMap": {
+			"type": "envMap",
+			"inputs": ["imageEnv"]
+		},
+		"imageEnv": {
+			"type": "imageEXR",
+			"params": {
+				"url": "textures/piz_compressed.exr?timestamp=-1",
+				"tminFilter": true,
+				"tmagFilter": true,
+				"tanisotropy": true,
+				"useRendererMaxAnisotropy": true
+			}
+		},
+		"image1": {
+			"type": "image",
+			"params": {
+				"url": "textures/uv.jpg?timestamp=-1"
+			}
+		},
+		"matcap": {
+			"type": "image",
+			"params": {
+				"url": "textures/1B1B1B_515151_7E7E7E_6C6C6C.png?timestamp=-1"
+			}
+		}
+	}
+}
